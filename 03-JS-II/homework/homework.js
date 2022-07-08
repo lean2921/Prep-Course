@@ -9,7 +9,7 @@ function obtenerMayor(x, y) {
     return x || y
   }else if (x > y){
     return x
-  }else if (x < y){
+  }else {
     return y
   }
 }
